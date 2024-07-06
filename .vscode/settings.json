@@ -1,0 +1,129 @@
+{
+  "explorer.confirmDragAndDrop": false,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula",
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "html-css-class-completion.HTMLLanguages": [
+    "html",
+    "vue",
+    "razor",
+    "blade",
+    "handlebars",
+    "twig",
+    "django-html",
+    "php",
+    "markdown",
+    "erb",
+    "ejs",
+    "svelte"
+  ],
+  "editor.accessibilitySupport": "off",
+  "html-css-class-completion.enableEmmetSupport": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.formatOnSave": false,
+    // "editor.codeActionsOnSave": {
+    // "source.fixAll.eslint": true
+    // }
+  },
+  "editor.formatOnSave": true,
+  "reactSnippets.settings.prettierEnabled": true,
+  "tabnine.experimentalAutoImports": true,
+  "css.completion.triggerPropertyValueCompletion": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "html-css-class-completion.JavaScriptLanguages": [
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "css"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    //  "editor.formatOnSave": false,
+    // "editor.codeActionsOnSave": {
+    //   "source.fixAll.eslint": true
+    //}
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "scss.format.spaceAroundSelectorSeparator": true,
+  "editor.linkedEditing": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "files.associations": {
+    "*.scss": "css",
+    "*.tsx": "typescriptreact",
+    "*.css": "css"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "codesnap.backgroundColor": "#0f172a",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "yaml.schemas": {
+    "file:///c%3A/Users/savio/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.jira.jqlList": [
+    {
+      "id": "10babb45-e947-4a49-8c49-e06242b88ed1",
+      "enabled": true,
+      "name": "My team-1581423093844 Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "80040f9b-4585-450e-a146-994b47282219",
+      "monitor": true
+    },
+    {
+      "id": "1bd6951e-2db3-435d-992d-55383c30a78c",
+      "enabled": true,
+      "name": "My savioanjos0216 Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "c0203cf6-7893-48b9-84a9-ffecfdf1e96e",
+      "monitor": true
+    }
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "workbench.settings.applyToAllProfiles": [],
+  "explorer.compactFolders": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "svelte.enable-ts-plugin": true,
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.autofetch": true,
+  "prisma.showPrismaDataPlatformNotification": false
+}

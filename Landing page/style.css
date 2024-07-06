@@ -1,0 +1,117 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("./imagens/depositphotos_653209596-stock-illustration-space-paper-cut-flying-rocket.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  box-shadow: 2px 2px 8px #ccc;
+}
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 28px;
+  padding: 10px;
+  background: linear-gradient(45deg, #625fff, #611374, #4e1cc3);
+  border-radius: 40px 25px 40px 15px;
+  transition: 1s;
+}
+.logo:hover {
+  cursor: pointer;
+  transform: scale(10px);
+  font-size: 34px;
+}
+.header {
+  padding: 10px;
+}
+.explore {
+  color: #fff;
+}
+.galaxies {
+  color: #cec80b;
+  margin-left: -25px;
+}
+.pai {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+.link {
+  color: #cec80b;
+  font-weight: bold;
+  transition: 0.9s;
+}
+.link:hover {
+  font-size: 25px;
+}
+.outro-link {
+  color: #000;
+}
+.topo {
+  padding: 20px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.titulo {
+  color: #cec80b;
+  padding: 20px;
+  font-family: monospace;
+}
+.texto {
+  font-family: monospace;
+}
+p {
+  color: #ccc;
+  padding: 5px;
+  left: 40px;
+}
+#enviar {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 19px;
+  width: 140px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #cec80b;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 1s;
+}
+#enviar:hover {
+  background-color: #f2f627;
+  font-size: 22px;
+}
+
+.content {
+  background: linear-gradient(45deg, #625fff, #611374, #4e1cc3);
+  border-radius: 30px 20px 10px 15px;
+  width: 450px;
+  height: 400px;
+  padding: 32px;
+  transform: translateX(30%);
+  box-shadow: 4px 2px 5px #ccc;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 140px;
+  font-size: 23px;
+}
