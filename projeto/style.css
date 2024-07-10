@@ -5,14 +5,92 @@
 body {
   background-color: #121214;
 }
+.principal {
+  flex-direction: column;
+}
 .card-1 {
   background: linear-gradient(45deg, #625fff, #611374, #4e1cc3);
-  width: 318px;
-  height: 448px;
+  width: 345px;
+  height: 520px;
   box-shadow: 4px 2px 5px #ccc;
-  display: flex;
   flex-direction: column;
   margin-top: 140px;
   font-size: 23px;
   font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  transform: translateX(13%);
+}
+
+.card-2 {
+  background: linear-gradient(45deg, #625fff, #611374, #4e1cc3);
+  width: 345px;
+  height: 520px;
+  box-shadow: 4px 2px 5px #ccc;
+  flex-direction: column;
+  margin-top: 140px;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  transform: translateX(13%);
+  flex: 20px;
+}
+.card-3 {
+  background: linear-gradient(45deg, #625fff, #611374, #4e1cc3);
+  width: 345px;
+  height: 520px;
+  box-shadow: 4px 2px 5px #ccc;
+  flex-direction: column;
+  margin-top: 140px;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  transform: translateX(13%);
+  flex: 20px;
+}
+
+.card-4 {
+  background: linear-gradient(45deg, #625fff, #611374, #4e1cc3);
+  width: 345px;
+  height: 520px;
+  box-shadow: 4px 2px 5px #ccc;
+  flex-direction: column;
+  margin-top: 140px;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  transform: translateX(13%);
+  flex: 20px;
+}
+.card-5 {
+  background: linear-gradient(45deg, #625fff, #611374, #4e1cc3);
+  width: 345px;
+  height: 520px;
+  box-shadow: 4px 2px 5px #ccc;
+  flex-direction: column;
+  margin-top: 140px;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  transform: translateX(13%);
+  flex: 20px;
+}
+.card-6 {
+  background: linear-gradient(45deg, #625fff, #611374, #4e1cc3);
+  width: 345px;
+  height: 520px;
+  box-shadow: 4px 2px 5px #ccc;
+  flex-direction: column;
+  margin-top: 140px;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  transform: translateX(13%);
+  flex: 20px;
+}
+p {
+  font-size: 18px;
+}
+img {
+  width: 345px;
+  height: 200px;
 }
