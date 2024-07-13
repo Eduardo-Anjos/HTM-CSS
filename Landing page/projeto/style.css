@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  justify-content: right;
+  box-shadow: 2px 2px 8px #ccc;
+}
+.titulo {
+  position: relative;
+  top: 10px;
+  margin-left: 69px;
+}
+.THE-BIGGEST {
+  color: #fff;
+}
+.GALAXIES {
+  color: #cec80b;
+}
+.pai {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding-top: 0px;
+  top: 0;
+  padding: 25px;
+  list-style-type: none;
+  gap: 15px;
+  justify-content: right;
+  color: #cec80b;
+  font-weight: bold;
+  transition: 0.9s;
+}
+.link {
+  transition: 0.9s;
+}
+.link:hover {
+  font-size: 25px;
+}
+a {
+  color: #cec80b;
+  text-decoration: none;
+}
+.sub-titulo {
+  color: #fff;
+  position: relative;
+  top: 1px;
+  margin-left: 69px;
+}
+body {
+  background: linear-gradient(#6d29f0, #581d76, #661290);
+  color: #cec80b;
+}
+main {
+  padding: 0px 100px 100px 100px;
+}
+.IC {
+  margin-right: 150px;
+}
+.NGC {
+  margin-right: 130px;
+}
+.outro-NGC {
+  margin-right: 100px;
+}
+.outra-NGC {
+  margin-right: 105px;
+}
+.BCG {
+  margin-right: 80px;
+}
+.segunda-class {
+  margin: 10px;
+}
+.nome-dentro {
+  padding: 1px;
+  transform: translate(10px);
+}
+.outra-class {
+  padding: 1px;
+  transform: translate(8px);
+}
+.principal {
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  justify-items: center;
+  margin-top: 30px;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+  background: linear-gradient(45deg, #625fff, #611374, #4e1cc3);
+  width: 345px;
+  height: 480px;
+  box-shadow: 2px 1px 3px #ccc;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.card {
+  border: 1px solid #ccc;
+  overflow: auto;
+  overflow-x: hidden;
+  border: 1px solid #ccc;
+}
+.card::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+p {
+  font-size: 18px;
+  color: #fff;
+  padding: 15px;
+}
+img {
+  width: 345px;
+  height: 200px;
+  border-radius: 5px 5px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cec80b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f0e810;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
