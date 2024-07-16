@@ -10,7 +10,12 @@
   position: relative;
   top: 10px;
   margin-left: 69px;
+  transition: 1.5s;
 }
+.titulo:hover {
+  animation: spin 2s linear infinite;
+}
+
 .THE-BIGGEST {
   color: #fff;
 }
@@ -47,6 +52,12 @@ a {
   top: 1px;
   margin-left: 69px;
 }
+.paragrafos {
+  transition: 0.9s;
+}
+.paragrafos:hover {
+  font-size: 19px;
+}
 body {
   background: linear-gradient(#6d29f0, #581d76, #661290);
   color: #cec80b;
@@ -79,6 +90,12 @@ main {
 .outra-class {
   padding: 1px;
   transform: translate(8px);
+}
+.mine-titulo {
+  transition: 0.9s;
+}
+.mine-titulo:hover {
+  font-size: 50px;
 }
 .principal {
   flex-direction: column;
@@ -144,4 +161,13 @@ img {
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
   border-radius: 10px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
