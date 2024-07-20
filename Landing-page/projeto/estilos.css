@@ -4,7 +4,7 @@
   margin: 0;
 }
 body {
-  background-image: url("./imagens/depositphotos_653209596-stock-illustration-space-paper-cut-flying-rocket.jpg");
+  background-image: url("imagems/depositphotos_653209596-stock-illustration-space-paper-cut-flying-rocket.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,14 +27,6 @@ body {
   border-radius: 40px 25px 40px 15px;
   transition: 1s;
 }
-.logo:hover {
-  cursor: pointer;
-  transform: scale(10px);
-  font-size: 34px;
-}
-.header {
-  padding: 10px;
-}
 .explore {
   color: #fff;
 }
@@ -51,9 +43,6 @@ body {
   color: #cec80b;
   font-weight: bold;
   transition: 0.9s;
-}
-.link:hover {
-  font-size: 25px;
 }
 .outro-link {
   color: #000;
@@ -96,11 +85,6 @@ p {
   font-weight: bold;
   transition: 1s;
 }
-#enviar:hover {
-  background-color: #f2f627;
-  font-size: 22px;
-}
-
 .content {
   background: linear-gradient(45deg, #625fff, #611374, #4e1cc3);
   border-radius: 30px 20px 10px 15px;
@@ -114,4 +98,56 @@ p {
   flex-direction: column;
   margin-top: 140px;
   font-size: 23px;
+}
+@media (min-width: 360px) and (max-width: 414px) {
+  .content {
+    max-width: 290px;
+    height: 470px;
+    position: relative;
+    right: 98px;
+  }
+  body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 20px;
+    height: 820px;
+  }
+  .header {
+    box-shadow: 2px 2px 8px #ccc;
+    max-width: 595px;
+  }
+  .pai {
+    position: relative;
+    top: 100px;
+    right: 230px;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+  .header {
+    box-shadow: 2px 2px 8px #ccc;
+    width: 648px;
+  }
+  .content {
+    position: relative;
+    bottom: 125px;
+    width: 340px;
+    height: 380px;
+    transform: translateX(4%);
+  }
+}
+
+@media (min-width: 1250px) and (max-width: 2500px) {
+  .logo:hover {
+    cursor: pointer;
+    transform: scale(10px);
+    font-size: 34px;
+  }
+  .link:hover {
+    font-size: 25px;
+  }
+  #enviar:hover {
+    background-color: #f2f627;
+    font-size: 22px;
+  }
 }

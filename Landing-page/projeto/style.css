@@ -10,10 +10,6 @@
   position: relative;
   top: 10px;
   margin-left: 69px;
-  transition: 1.5s;
-}
-.titulo:hover {
-  animation: spin 2s linear infinite;
 }
 
 .THE-BIGGEST {
@@ -21,6 +17,7 @@
 }
 .GALAXIES {
   color: #cec80b;
+  display: block;
 }
 .pai {
   display: flex;
@@ -34,14 +31,8 @@
   justify-content: right;
   color: #cec80b;
   font-weight: bold;
-  transition: 0.9s;
 }
-.link {
-  transition: 0.9s;
-}
-.link:hover {
-  font-size: 25px;
-}
+
 a {
   color: #cec80b;
   text-decoration: none;
@@ -52,12 +43,7 @@ a {
   top: 1px;
   margin-left: 69px;
 }
-.paragrafos {
-  transition: 0.9s;
-}
-.paragrafos:hover {
-  font-size: 19px;
-}
+
 body {
   background: linear-gradient(#6d29f0, #581d76, #661290);
   color: #cec80b;
@@ -91,12 +77,7 @@ main {
   padding: 1px;
   transform: translate(8px);
 }
-.mine-titulo {
-  transition: 0.9s;
-}
-.mine-titulo:hover {
-  font-size: 50px;
-}
+
 .principal {
   flex-direction: column;
   display: grid;
@@ -129,10 +110,6 @@ main {
   overflow-x: hidden;
   border: 1px solid #ccc;
 }
-.card::-webkit-scrollbar {
-  height: 5px;
-  width: 5px;
-}
 p {
   font-size: 18px;
   color: #fff;
@@ -163,11 +140,79 @@ img {
   border-radius: 10px;
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 360px) and (max-width: 414px) {
+  .card {
+    position: relative;
+    right: 10px;
   }
-  to {
-    transform: rotate(360deg);
+  .pai {
+    position: relative;
+    right: 20px;
+  }
+  .titulo {
+    position: relative;
+    right: 20px;
+  }
+  .sub-titulo {
+    position: relative;
+    right: 20px;
+  }
+  .card {
+    position: relative;
+    right: 80px;
+  }
+  .principal {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 15px;
+  }
+  .header {
+    justify-content: right;
+    box-shadow: 2px 2px 8px #ccc;
+    width: 359px;
+  }
+}
+
+@media (min-width: 834px) and (max-width: 1114px) {
+  .principal {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .header {
+    justify-content: right;
+    box-shadow: 2px 2px 8px #ccc;
+    width: 900px;
+  }
+  .card {
+    position: relative;
+    right: 20px;
+  }
+  .titulo {
+    position: relative;
+    right: 28px;
+  }
+  .sub-titulo {
+    position: relative;
+    right: 37px;
+  }
+}
+@media (min-width: 1250px) and (max-width: 2500px) {
+  .link {
+    transition: 0.9s;
+  }
+  .link:hover {
+    font-size: 25px;
+  }
+  .mine-titulo {
+    transition: 0.9s;
+  }
+  .mine-titulo:hover {
+    font-size: 50px;
+  }
+  .paragrafos {
+    transition: 0.9s;
+  }
+  .paragrafos:hover {
+    font-size: 19px;
   }
 }
